@@ -1,0 +1,57 @@
+
+body { /* Visual */
+  background: gray;
+}
+
+#display {
+  font-family: monospace;
+  font-size: 120px;
+  color: green;
+
+  /* Typography */
+  text-align: center;
+
+  /* Visual */
+  background: #111111;
+}
+
+#wrapper {
+  /* Box-model */
+  width: 500px;
+
+  /* Positioning */
+  margin: 50px auto 0;
+}
+
+#buttons { /* Typography */
+  text-align: center;
+}
+
+button {
+  width: 100px;
+
+  /* Box-model */
+  height: 50px;
+}
+
+.qCards {
+  width: 100%;
+  height: auto;
+
+  /* Positioning */
+  margin-top: 20px;
+  margin-bottom:600px;
+
+  /* Box-model */
+  overflow: auto;
+
+  /* Typography */
+  text-align: center;
+
+  /* Visual */
+  background: white;
+}
+
+.controls {
+  margin-top:10px;
+}
